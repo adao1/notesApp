@@ -54,7 +54,7 @@ class ListNotesTableViewController: UITableViewController {
                 let note = notes[indexPath.row]
                 // 3
                 let displayNoteViewController = segue.destinationViewController as! DisplayNoteViewController
-                // 4
+                // 4.0
                 displayNoteViewController.note = note
                 
             } else if identifier == "addNote" {
